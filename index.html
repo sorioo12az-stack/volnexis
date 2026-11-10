@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VOLNEXIS | Volleyball Analytics</title>
+  <link rel="stylesheet" href="css/js/assets/modules/style.css">
+</head>
+<body>
+<div class="app">
+  <aside>
+    <div class="logo">VOL<span>NEXIS</span></div>
+    <nav>
+      <div class="nav-label">MAIN MENU</div>
+      <button class="active" data-page="ホーム">⌂　ホーム</button>
+      <button data-page="チーム管理">♟　チーム管理</button>
+      <button data-page="選手管理">♙　選手管理</button>
+      <div class="nav-label">ANALYTICS</div>
+      <button data-page="試合分析">▤　試合分析</button>
+      <button data-page="データ・統計">▥　データ・統計</button>
+      <button data-page="動画AI分析">▶　動画 AI</button>
+      <div class="nav-label">TACTICS</div>
+      <button data-page="3D COURT">◈　3D COURT</button>
+      <button data-page="AI COACH">✧　AI COACH</button>
+      <div class="nav-label">SYSTEM</div>
+      <button data-page="設定">⚙　設定</button>
+    </nav>
+  </aside>
+
+  <main>
+    <header>
+      <div>
+        <div class="eyebrow">VOLLEYBALL PERFORMANCE PLATFORM</div>
+        <h1 id="page-title">ダッシュボード</h1>
+        <div class="muted">チームの成長を、データでつなぐ。</div>
+      </div>
+      <div class="profile">●　MY TEAM　|　管理者</div>
+    </header>
+
+    <section class="welcome">
+      <span class="tag">WELCOME TO VOLNEXIS</span>
+      <h2>Connecting Teams.<br>Elevating Performance.</h2>
+      <p>チーム・選手・試合データを一つにつなぐ、新しいバレーボール分析環境。</p>
+    </section>
+
+    <div class="section-title">TEAM OVERVIEW</div>
+    <section class="stats">
+      <div class="card">
+        <div class="muted">登録選手</div>
+        <div class="stat-number">-- <span>PLAYERS</span></div>
+        <div class="muted">選手データ</div>
+      </div>
+      <div class="card">
+        <div class="muted">記録試合数</div>
+        <div class="stat-number">-- <span>MATCHES</span></div>
+        <div class="muted">試合データ</div>
+      </div>
+      <div class="card">
+        <div class="muted">総ラリー数</div>
+        <div class="stat-number">-- <span>RALLIES</span></div>
+        <div class="muted">プレー記録</div>
+      </div>
+      <div class="card">
+        <div class="muted">チーム勝率</div>
+        <div class="stat-number">-- <span>%</span></div>
+        <div class="muted">試合成績</div>
+      </div>
+    </section>
+
+    <div class="section-title">VOLNEXIS FEATURES</div>
+    <section class="features">
+      <div class="card feature" data-page="チーム管理">
+        <div class="feature-icon">♟</div>
+        <h3>TEAM MANAGEMENT</h3>
+        <p>チーム情報・所属メンバー・役割を管理。</p>
+        <div class="status">● MODULE</div>
+      </div>
+      <div class="card feature" data-page="選手管理">
+        <div class="feature-icon">♙</div>
+        <h3>PLAYER DEVELOPMENT</h3>
+        <p>選手能力・評価・成長記録を管理。</p>
+        <div class="status">● MODULE</div>
+      </div>
+      <div class="card feature" data-page="試合分析">
+        <div class="feature-icon">▤</div>
+        <h3>MATCH ANALYSIS</h3>
+        <p>サーブ・レシーブ・攻撃・守備を記録。</p>
+        <div class="status">● MODULE</div>
+      </div>
+      <div class="card feature" data-page="動画AI分析">
+        <div class="feature-icon">▶</div>
+        <h3>VIDEO AI</h3>
+        <p>試合映像から選手やボールの動きを解析。</p>
+        <div class="status">● MODULE</div>
+      </div>
+      <div class="card feature" data-page="3D COURT">
+        <div class="feature-icon">◈</div>
+        <h3>3D COURT</h3>
+        <p>実寸コートと選手・ボールの動きを3Dで再現。</p>
+        <div class="status">● MODULE</div>
+      </div>
+      <div class="card feature" data-page="AI COACH">
+        <div class="feature-icon">✧</div>
+        <h3>AI COACH</h3>
+        <p>データをもとにチームと選手の改善を提案。</p>
+        <div class="status">● MODULE</div>
+      </div>
+    </section>
+
+    <div id="page-message"></div>
+  </main>
+</div>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>
